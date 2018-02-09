@@ -7,10 +7,9 @@ import { Title} from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // title = 'app';
   constructor(private titleService: Title) {}
 
   ngOnInit() {
-    this.titleService.setTitle("Sample")
+    this.titleService.setTitle("CRUD Firestore")
   }
 }
